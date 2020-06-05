@@ -1,9 +1,6 @@
-fountain-js
+fountain-parser
 ===========
-
-fountain-js is a JavaScript based parser for the screenplay format [Fountain](http://fountain.io/).
-
-You can [try fountain-js out](http://mattdaly.github.com/Fountain.js/). The file system currently uses the HTML 5 File API, which means not all browsers support it, you'll be told if yours doesn't - I'm working on compatiblity. CSS styling isn't complete, so some elements aren't placed correctly and the text spacing might not be quite right, and, as you'll see, individual pages aren't currently supported either.
+This is fork from [try fountain-js out](http://mattdaly.github.com/Fountain.js/).
 
 # Syntax Support
 

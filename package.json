@@ -4,7 +4,7 @@
   "description": "parser for fountain format files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --no-cache ./*"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,25 @@
   "bugs": {
     "url": "https://github.com/venkatgoud/fountain-parser/issues"
   },
-  "homepage": "https://github.com/venkatgoud/fountain-parser#readme"
+  "homepage": "https://github.com/venkatgoud/fountain-parser#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.2.4",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^25.2.4"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "package.json"
+    ]
+  },
+  "dependencies": {
+    "core-js": "^3.6.4"
+  }
 }
