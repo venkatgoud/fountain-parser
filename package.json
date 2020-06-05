@@ -1,0 +1,23 @@
+{
+  "name": "fountain-parser",
+  "version": "0.0.1",
+  "description": "parser for fountain format files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatgoud/fountain-parser.git"
+  },
+  "keywords": [
+    "fountain",
+    "screenwriting"
+  ],
+  "author": "Venkat Goud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkatgoud/fountain-parser/issues"
+  },
+  "homepage": "https://github.com/venkatgoud/fountain-parser#readme"
+}
